@@ -1,0 +1,66 @@
+<<----------------Rapport de Synchronisation du 01/12/2019 17:16---------------->>
+
+Serveur XXX\SQLServer1
+Base XXX.sdf
+Direction: UploadOnly
+SyncStartTime : 01/12/2019 17:09:53
+SyncCompleteTime : 01/12/2019 17:09:55
+TotalChangesDownloaded : 0
+DownloadChangesApplied : 0
+DownloadChangesFailed : 0
+TotalChangesUploaded : 0
+UploadChangesApplied : 0
+UploadChangesFailed : 0
+
+Serveur XXX\SQLServer2
+Base YYY.sdf
+Direction: UploadOnly
+SyncStartTime : 01/12/2019 17:09:55
+SyncCompleteTime : 01/12/2019 17:09:57
+TotalChangesDownloaded : 0
+DownloadChangesApplied : 0
+DownloadChangesFailed : 0
+TotalChangesUploaded : 0
+UploadChangesApplied : 0
+UploadChangesFailed : 0
+
+<<----------------Rapport de Synchronisation du 02/12/2019 08:55---------------->>
+
+Serveur 21x.128.121.y,1443
+Aucune table dans le groupe UploadOnly pour la base XXX.sdf ne contient de nouvelles informations
+
+Serveur 21x.128.121.y,1443
+Base YYY.sdf
+Direction: UploadOnly
+SyncStartTime : 02/12/2019 08:54:48
+SyncCompleteTime : 02/12/2019 08:54:49
+TotalChangesDownloaded : 0
+DownloadChangesApplied : 0
+DownloadChangesFailed : 0
+TotalChangesUploaded : 2
+UploadChangesApplied : 2
+UploadChangesFailed : 0
+
+Serveur 21x.128.121.y,1443
+Aucune table dans le groupe UploadOnly pour la base XXX.sdf ne contient de nouvelles informations
+
+Serveur 21x.128.121.y,1443
+Base YYY.sdf
+Direction: DownloadOnly
+SyncStartTime : 02/12/2019 08:55:01
+SyncCompleteTime : 02/12/2019 08:55:05
+TotalChangesDownloaded : 1124
+DownloadChangesApplied : 932
+DownloadChangesFailed : 192
+TotalChangesUploaded : 0
+UploadChangesApplied : 0
+UploadChangesFailed : 0
+Conflit détecté côté base locale  Site : ClientInsertServerInsert (Server PK: 11; Client PK: 11)
+Impossible d'insérer une valeur dupliquée dans un index unique. [ Table name = Site,Constraint name = PK__Site__0000000000000654 ]
+Conflit détecté côté base locale  Site : ClientInsertServerInsert (Server PK: 12; Client PK: 12)
+Impossible d'insérer une valeur dupliquée dans un index unique. [ Table name = Site,Constraint name = PK__Site__0000000000000654 ]
+
+<<----------------Rapport de Synchronisation du 14/08/2020---------------->>
+
+Serveur local
+Aucune information...
